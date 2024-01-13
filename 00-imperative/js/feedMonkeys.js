@@ -7,3 +7,15 @@
  */
 
 const MONKEYS = ["🐒", "🦍", "🦧"];
+
+function feedMonkeys(monkeys, fruit) {
+  var result = [];
+
+  for (var i = 0; i < monkeys.length; i++) {
+    result.push(monkeys[i] + " " + fruit);
+  }
+
+  return result;
+}
+
+export default feedMonkeys;

@@ -5,3 +5,14 @@
  */
 
 const SECONDS = [2, 5, 100];
+
+const transformSecondsToWords = (SECONDS) => {
+  const numberWord = SECONDS.map((element) => {
+    
+    return element.toString();
+  });
+
+  return numberWord;
+};
+
+export default transformSecondsToWords;
