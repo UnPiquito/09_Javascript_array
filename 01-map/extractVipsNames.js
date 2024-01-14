@@ -29,7 +29,6 @@ const VIPS = [
 
 const extractVipsNames = (VIPS) => {
   const vipsNames = VIPS.map((element) => {
-
     return element.name;
   });
 

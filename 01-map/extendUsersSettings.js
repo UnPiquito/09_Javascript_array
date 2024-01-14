@@ -63,5 +63,5 @@ const extendUsersSettings = (users) => {
       isEnabled: true,
     };
   });
-}
+};
 export default extendUsersSettings;
