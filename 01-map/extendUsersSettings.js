@@ -64,4 +64,5 @@ const extendUsersSettings = (users) => {
     };
   });
 };
+ 
 export default extendUsersSettings;
