@@ -9,7 +9,7 @@ describe("Given extractCountriesWithFiveCharactersOrFewer function", () => {
       "Portugal",
       "Greece",
     ];
-    const expected =  [ 'Italy' ];
+    const expected = ["Italy"];
 
     const numberWord = extractCountriesWithFiveCharactersOrFewer(COUNTRIES);
 

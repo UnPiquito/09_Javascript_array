@@ -12,4 +12,4 @@ const capitalizeMates = (MATES) => {
   });
 };
 
-export default capitalizeMatese;
+export default capitalizeMates;
