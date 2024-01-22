@@ -5,3 +5,13 @@
  */
 
 const VALUES = [1, 2, 3];
+
+function getWordFromValues() {
+  const wordFromValues = VALUES.reduce((word, value) => {
+    return word + value;
+  }, "");
+
+  return wordFromValues;
+}
+
+export default getWordFromValues;

@@ -5,3 +5,11 @@
  */
 
 const COUNTERS = [2, 25, 43, 12, 67, 42, 28];
+
+const getEvensOnly = (COUNTERS) => {
+  const filteredCounters = COUNTERS.filter((COUNTERS) => COUNTERS % 2 === 0);
+
+  return filteredCounters;
+};
+
+export default getEvensOnly;
