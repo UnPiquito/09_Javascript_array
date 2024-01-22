@@ -11,8 +11,8 @@ const MONKEYS = ["🐒", "🦍", "🦧"];
 function feedMonkeys(monkeys, fruit) {
   var result = [];
 
-  for (var i = 0; i < monkeys.length; i++) {
-    result.push(monkeys[i] + " " + fruit);
+  for (var index = 0; index < monkeys.length; index++) {
+    result.push(monkeys[index] + " " + fruit);
   }
 
   return result;

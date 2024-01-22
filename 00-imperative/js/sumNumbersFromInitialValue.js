@@ -12,7 +12,7 @@ const sumNumbersFromInitialValue = (NUMBERS, initialValue) => {
   let arraySum = initialValue;
 
   for (let index = 0; index < NUMBERS.length; index++) {
-    arraySum = arraySum + NUMBERS[i];
+    arraySum = arraySum + NUMBERS[index];
   }
 
   return arraySum;

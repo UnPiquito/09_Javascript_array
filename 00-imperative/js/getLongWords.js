@@ -13,7 +13,7 @@ const getLongWords = (WORDS) => {
   const greaterWords = [];
 
   for (let index = 0; index < WORDS.length; index++) {
-    if (WORDS[i].length >= 5) {
+    if (WORDS[index].length >= 5) {
       greaterWords.push(WORDS[i]);
     }
   }
